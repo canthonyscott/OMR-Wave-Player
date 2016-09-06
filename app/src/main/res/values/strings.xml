@@ -2,4 +2,5 @@
     <string name="app_name">OMR Wave Player</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_playback">Playback</string>
+    <string name="title_activity_g_rev_activity">g_rev_activity</string>
 </resources>

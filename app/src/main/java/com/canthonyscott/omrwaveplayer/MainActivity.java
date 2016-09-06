@@ -26,6 +26,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        final Button g_rev = (Button) findViewById(R.id.g_rev);
+        g_rev.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), g_rev_playback.class));
+            }
+        });
     }
 
     @Override

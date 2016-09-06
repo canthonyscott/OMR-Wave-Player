@@ -22,8 +22,18 @@
             android:name=".Playback"
             android:label="@string/title_activity_playback"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.canthonyscott.omrwaveplayer.MainActivity" />
+        </activity>
+        <activity
+            android:name=".g_rev_playback"
+            android:label="@string/title_activity_g_rev_activity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.canthonyscott.omrwaveplayer.MainActivity" />
